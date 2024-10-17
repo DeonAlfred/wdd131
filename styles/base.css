@@ -1,1 +1,373 @@
-koojj
+/* my google fonts8*/
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Roboto+Serif:ital=Roboto,sans-serif;opsz@0,8..144;1,8..144&display=swap');
+
+:root {
+    /* colors from my palette */
+    --primary-color: #091136;
+    --secondary-color: #fb0f07;
+    --accent1-color: #70e000;
+    --accent2-color: #fdfcdc;
+    --accent3-color: #ae07fb;
+
+    /*  chosen font(s) */
+    --heading-font: 'Courgette', cursive;
+    --paragraph-font: 'Roboto Serif', serif;
+
+
+    /* these colors below should be chosen from among your palette colors above */
+    --headline-color-on-white: #091136;
+    /* headlines on a white background */
+    --headline-color-on-color: #fb0f07;
+    /* headlines on a colored background */
+    --paragraph-color-on-white: #091136;
+    /* paragraph text on a white background */
+    --paragraph-color-on-color: #fdfcdc;
+    /* paragraph text on a colored background */
+    --paragraph-background-color: #091136;
+    --nav-link-color: #fb0f07;
+    --nav-background-color: #70e000;
+    --nav-hover-link-color: #fdfcdc;
+    --nav-hover-background-color: #091136;
+}
+
+
+/*  Look around below...but DON'T CHANGE ANYTHING! */
+
+body {
+
+    max-width: 1500px;
+
+    margin: 0px;
+    padding: 40px;
+    height: 100%;
+
+
+
+
+    background-color: goldenrod;
+
+
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+
+}
+
+.paragraph {
+    border-style: solid;
+    margin-left: 10%;
+    padding: 20px;
+    border-color: blue;
+    border-radius: 30px;
+    box-shadow: 10px 10px 10px 10px #fb0f07;
+    background-color: #fdfcdc;
+    animation-name: spin;
+    animation-duration: 20s;
+    ;
+}
+
+@keyframes paragraph {
+    from {
+        background-color: #091136;
+    }
+
+       to  {background-color: #fdfcdc;}
+}
+
+.card_article2 {
+    display: flexbox;
+    flex: 2/3;
+    padding: 70px;
+
+    border-style: solid;
+    border-width: 4px 4px 4px 4px;
+    border-color: #70e000;
+    border-radius: 10px;
+}
+
+.paragraph {
+    border-style: solid;
+    border-color: #091136;
+
+}
+
+.card_container {
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+
+    box-sizing: border-box;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #091136;
+    align-content: center;
+    margin-bottom: 300px;
+    background-color: #999;
+    border-left: #091136;
+    border-right: 50px;
+    border-width: 50px;
+    background-image: url(images/de.webp);
+    background-size: cover;
+    background-position: center top;
+    height: 50%;
+
+}
+
+.card_data {
+    display: flex;
+    flex: 1/2;
+    background-color: #999;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #fb0f07;
+    align-content: end;
+
+
+
+}
+
+.container {
+    display: grid;
+    grid-column: 1/3;
+    align-content: last baseline;
+    background-image: url(images/de.webp);
+    background-size: cover;
+    background-position: center top;
+    height: 100px;
+}
+
+.container1 {
+    display: grid;
+    grid-column: 3/3;
+    grid-row: 1/3;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #fb0f07;
+    padding: 30px;
+
+
+
+    margin-top: 100px;
+    margin-bottom: 200px;
+    margin-right: 70px;
+    background-color: goldenrod;
+}
+
+.d:hover {
+    background-color: #fdfcdc;
+
+}
+
+.navig:hover {
+
+    background-color: #fdfcdc;
+
+}
+
+
+
+.pics {
+
+    display: grid;
+    grid-column: 2/3;
+    grid-row: 1/3;
+    padding: 20px;
+
+    transition: transform 0.5s ease-in-out;
+    margin: 200px;
+    border-radius: 50%;
+    animation-name: move;
+    animation-duration: 5s;
+
+    transition: width 3s;
+
+    border-style: solid;
+    border-color: #fb0f07;
+
+
+
+}
+
+@keyframes move {
+    0% {
+        background-color: red;
+        left: 10px;
+        top: 5px;
+    }
+
+    15% {
+        background-color: yellow;
+        left: 200px;
+        top: 100px;
+    }
+
+    30% {
+        background-color: blue;
+        left: 200px;
+        top: 200px;
+    }
+
+    45% {
+        background-color: green;
+        left: 0px;
+        top: 200px;
+    }
+
+    100% {
+        background-color: red;
+        left: 0px;
+        top: 0px;
+    }
+}
+
+h2 {
+    margin-top: 90px;
+    font-family: var(--heading-font);
+    color: var(--headline-color-on-white);
+    text-align: center;
+
+
+}
+
+
+
+.spin {
+    animation: spin 1s linear infinite;
+}
+
+
+@keyframes spin {
+    from {
+        transform: right(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+header {
+    padding: 1em;
+    text-align: center;
+    color: var(--headline-color-on-color);
+    background-color: var(--paragraph-background-color);
+
+}
+
+header>h1,
+header>h2 {
+    color: var(--headline-color-on-color);
+}
+
+p {
+    font-family: var(--paragraph-font);
+    color: var(--paragraph-color-on-white);
+    padding: 1em;
+}
+
+.rite {
+    display: grid;
+    grid-column: 2/3;
+}
+
+.colors {
+    width: 100%;
+    min-width: 350px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.colors th {
+    background-color: #999;
+}
+
+Z.colors td {
+    width: 25%;
+    height: 3em;
+}
+
+.primary {
+    background-color: var(--primary-color);
+}
+
+.secondary {
+    background-color: var(--secondary-color);
+}
+
+.accent1 {
+    background-color: var(--accent1-color);
+}
+
+.accent2 {
+    background-color: var(--accent2-color);
+}
+
+p.colored {
+    background-color: var(--paragraph-background-color);
+    color: var(--paragraph-color-on-color);
+}
+
+nav {
+    background-color: var(--nav-background-color);
+    line-height: 3em;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.head {
+    font-variant-east-asian: ruby;
+}
+
+.navig {
+    border-radius: 10px;
+}
+
+nav {
+
+    justify-content: center;
+    display: flexgrid;
+    flex-wrap: wrap;
+    border: 2px solid #fb0f07;
+
+}
+
+nav a {
+    padding: 1em;
+    min-width: 120px;
+    text-decoration: none;
+    padding: 10px;
+
+}
+
+.fr {
+    padding: 10%;
+}
+
+nav a:link,
+nav a:visited {
+    color: var(--nav-link-color);
+}
+
+footer {
+    display: grid;
+    grid-row: 3/3;
+    grid-column: 2/3
+}
+
+.fr {
+    display: grid;
+    grid-column: 3/3;
+    grid-row: 2/3;
+}
+
+.navig :hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+    background-blend-mode: darken;
+    border-radius: 20px;
+    opacity: 1.0;
+
+    transform: scale(1.0)
+}
