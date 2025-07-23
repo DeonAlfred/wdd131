@@ -44,7 +44,7 @@ body {
 
 
 
-    background-color: darkblue;
+    background-color: black;
 
 
 }
@@ -82,7 +82,7 @@ nav a:hover {
     padding: 70px;
 
     border-style: solid;
-    border-width: 4px 4px 4px 4px;
+    border-width: 8px 8px 8px 8px;
     border-color: #70e000;
     border-radius: 10px;
 }
