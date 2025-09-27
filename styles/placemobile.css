@@ -1,0 +1,36 @@
+:root {
+    /* colors from my palette */
+    --primary-color: black;
+    --secondary-color: #fb0f07;
+    --accent1-color: #fdfcdc;
+    --accent3-color: yellow;
+
+
+
+
+}
+
+@media screen and (min-width: 500px) {
+
+
+
+
+    main {
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+        column-gap: normal;
+    }
+
+    .winds {
+        display: grid;
+
+        background-image: url('/images/pexels-josh-hild-1270765-2422251.jpg');
+
+
+
+        padding: 60px;
+
+
+
+    }
+}

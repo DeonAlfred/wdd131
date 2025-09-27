@@ -1,0 +1,161 @@
+/* my google fonts8*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,100..900;1,100..900&family=Story+Script&display=swap');
+
+
+:root {
+    /* colors from my palette */
+    --primary-color: #091136;
+    --secondary-color: #fb0f07;
+    --accent1-color: #70e000;
+    --accent2-color: #fdfcdc;
+    --accent3-color: #ae07fb;
+
+    /*  chosen font(s) */
+
+}
+
+
+/*  Look around below...but DON'T CHANGE ANYTHING! */
+.story-script-regular {
+  font-family: "Story Script", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+header {
+
+    display: grid;
+    grid-column: auto;
+    background-color: #ae07fb;
+    justify-items: center;
+    padding: 30px;
+    font-size: x-large;
+
+
+}
+
+body {
+    max-width: 1500px;
+    max-height: 700px;
+    display: grid;
+    grid-template-columns: 1fr;
+    font-family: "Story Script", sans-serif;
+    font-weight: 400;
+    background-color: black;
+
+
+}
+
+h1 {
+    text-align: center;
+    font-weight: 100;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+
+nav {
+    background-color: #70e000;
+    margin: 0;
+    border-radius: 20px;
+
+}
+
+nav a {
+    display: block;
+    color: #fb0f07;
+    font-size: x-large;
+    font-weight: 600;
+    text-align: center;
+
+    text-decoration: none;
+    justify-content: space-evenly;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav a:hover {
+    border: 4px solid;
+    color: #091136;
+    background-color: #fb0f07;
+    border-radius: 50px;
+    border-color: #fdfcdc;
+}
+
+.container {
+
+    display: grid;
+    grid-template-columns: 3fr 3fr;
+    align-content: center;
+    justify-items: center;
+    column-gap: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+
+.card {
+    display: grid;
+    grid-template-columns: auto;
+    color: #70e000;
+    border: 1px solid;
+    align-content: end;
+    width: 550px;
+    height: 550px;
+    border-radius: 20px;
+    box-shadow: 20px 20px 20px blue, 10px 10px 10px red inset;
+    border-color: #fb0f07 #091136;
+    text-align: center;
+
+
+}
+
+
+.active {
+    color: #fb0f07;
+
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 2fr 2fr ;
+    background-color: #ae07fb;
+    font-size: large;
+    align-items: center;
+    padding-block: 1px;
+}
+
+.d {
+    display: block;
+    border-radius: 20px;
+    margin-left: 30%;
+    
+    width: 200px;
+    height: 200px;
+    align-content: center;
+}
+h2{
+    text-align: center;
+     align-items: center;
+    font-size: xx-large;
+}
+
+
+@media (min-width: 640px) {
+    nav ul {
+        display: flex;
+        justify-content: space-around;
+
+    }
+    header{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+    }
+
+}

@@ -1,0 +1,157 @@
+:root {
+    
+    --primary-color: black;
+    --secondary-color: #fb0f07;
+    --accent1-color: #fdfcdc;
+    --accent3-color: yellow;
+
+
+
+
+}
+
+
+Body {
+    display: block;
+
+    font-family: "Cormorant", serif;
+
+    max-width: 800px;
+
+    margin: auto;
+    border-color: black;
+
+
+}
+
+.winds {
+    display: grid;
+
+    background-image: url("/images/pexels-josh-hild-1270765-2422251.jpg");
+    background-size: cover;
+    background-position: center;
+
+    
+
+
+
+}
+
+header {
+    border-width: medium;
+    display: block;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    padding: 30px;
+    font-family: "Cormorant", serif;
+    font-weight: bolder;
+    color: black;
+    justify-items: end;
+    margin: auto;
+    font-size: x-large;
+    box-shadow: 0 0 30px darkred inset;
+    color: blue;
+    bottom: 50px;
+    border: solid;
+
+
+
+
+
+}
+
+main {
+    display: grid;
+
+}
+
+h1:nth-last-child(odd) {
+    text-transform: capitalize;
+
+}
+
+
+
+.populationinfo-container {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 20px 20px rgba(8, 5, 211, 0.2);
+    margin-bottom: 60px;
+    filter: hue-rotate(90deg);
+    filter: sepia(100%);
+
+
+
+
+}
+
+
+
+.windchill-container {
+    display: grid;
+    margin-top: 10px;
+    grid-template-columns: 1fr 1fr;
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    justify-self: right;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: blue;
+}
+
+.sunpic {
+    justify-content: left;
+    padding: 15px;
+    border: 2px solid gold;
+    background-color: rgba(0, 0, 0, 0.2);
+    filter: hue-rotate(90deg);
+    filter: grayscale(100%);
+    filter: sepia(100%);
+    border-radius: 100px;
+
+
+
+
+}
+
+.sunpic {
+    filter: hue-rotate(90deg);
+
+    filter: grayscale(100%);
+
+    filter: sepia(100%);
+
+
+}
+
+
+.windchill-container p {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+#wind-chill {
+    font-weight: bold;
+
+}
+
+footer {
+    text-align: center;
+    background-color: lightblue;
+    max-width: 800px;
+    font-weight: bolder;
+
+    color: black;
+    bottom: 50px;
+    border: solid;
+
+
+
+}

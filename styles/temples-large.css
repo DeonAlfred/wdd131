@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Dancing+Script:wght@400..700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,100..900;1,100..900&family=Story+Script&display=swap"');
+
+
+:root {
+    /* colors from my palette */
+    --primary-color: #000;
+    --secondary-color: #fb0f07;
+    --accent1-color: blueviolet;
+    --accent2-color: #fdfcdc;
+
+
+
+
+}
+
+
+
+
+footer {
+    display: grid;
+
+    grid-template-columns: 3fr 3fr;
+    align-content: space-evenly;
+    color: #fdfcdc;
+    background-color: blueviolet;
+    font-size: large;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+
+}
+
+nav {
+    background-color: #fb0f07;
+    margin: 0 auto;
+
+
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav a:hover {
+    border: 1px solid #fdfcdc;
+    background-color: aqua;
+
+}
+
+nav a {
+    display: block;
+    color: blueviolet;
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none;
+
+}
+
+main {
+
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #000;
+}
+  
+
+body {
+
+    font-family: "Story Script", sans-serif;
+    font-weight: 400;
+    font-size: x-large;
+
+
+    max-width: 800px;
+    background-color: #000;
+    margin: auto;
+    text-align: center;
+
+}
+
+header {
+    
+
+    max-width: 800px;
+
+    align-content: center;
+}
+
+.p {
+
+    max-width: 800px;
+    margin: 1rem;
+    padding: 2px;
+    border-color: red;
+    border: solid red;
+    text-align: center;
+
+
+
+
+}
+
+.p:hover {
+    box-shadow: 0 0 50px #333;
+    transform: scale(1.2);
+}
