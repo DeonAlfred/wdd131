@@ -35,7 +35,7 @@ footer {
 
 nav {
     background-color: #fb0f07;
-    margin: 0 auto;
+    justify-items: auto;
 
 
 }
@@ -81,12 +81,14 @@ body {
 
 }
 
-header {
+.header {
+    padding: 1rem;
+    text-align: left;
 
 
-    max-width: 800px;
+    
 
-    align-content: center;
+    
 }
 
 .p {
@@ -110,6 +112,7 @@ header {
 
 #menu {
     display: none;
+    justify-self: right;
 }
 
 .res-grid {
