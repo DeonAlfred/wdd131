@@ -14,7 +14,6 @@
 
 
 
-
     /* Mobile View ***************/
 
     #menu {
@@ -29,8 +28,9 @@
         text-align: right;
     }
 
-    #menu::before {
+    button::before {
         content: "≡";
+        alignment-baseline: end;
 
 
     }
@@ -51,7 +51,7 @@
 
     .navigation a {
         display: block;
-        padding: 0.75rem;
+        padding: 10px;
         text-align: left;
         text-decoration: none;
         color: black;
@@ -70,13 +70,10 @@
         display: block;
     }
 
-    #menu.show::before {
-        content: "X";
-
-    }
 
 
-    @media  (min-width: 640px) {
+
+    @media (min-width: 640px) {
         h1 {
             font-size: 2rem;
         }

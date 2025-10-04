@@ -14,15 +14,18 @@
 }
 
 
+.menu {
+    display: none;
 
+}
 
 footer {
     display: grid;
 
     grid-template-columns: 3fr 3fr;
     align-content: space-evenly;
-    color: #fdfcdc;
-    background-color: blueviolet;
+    color: black;
+    background-color: #fdfcdc;
     font-size: large;
     align-items: center;
     margin: auto;
@@ -62,7 +65,7 @@ main {
     margin: 0 auto;
     background-color: #000;
 }
-  
+
 
 body {
 
@@ -79,7 +82,7 @@ body {
 }
 
 header {
-    
+
 
     max-width: 800px;
 
@@ -103,4 +106,33 @@ header {
 .p:hover {
     box-shadow: 0 0 50px #333;
     transform: scale(1.2);
+}
+
+#menu {
+    display: none;
+}
+
+.res-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.res-grid section {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    border-radius: 8px;
+    background: #f9f9f9;
+    text-align: center;
+}
+
+.res-grid img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.label {
+    font-weight: bold;
 }
