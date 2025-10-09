@@ -404,3 +404,7 @@ form{
     border: solid 1px black;
     
 }
+textarea {
+    resize: none;
+    width: 100%;
+}
