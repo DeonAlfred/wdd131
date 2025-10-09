@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temple Album</title>
+    <meta name="description" content="Temple">
+    <meta name="author" content="Deon Johannes">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Dancing+Script:wght@400..700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,100..900;1,100..900&family=Story+Script&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/form.css">
+
+
+</head>
+
+
+<body>
+
+    <header>
+        Product Review Form
+    </header>
+
+
+    <main>
+
+        <main class="bg">
+
+            <form method="get" action="thanks.html" class="wf1">
+                <div class="he">Product Name</div>
+                <fieldset>
+                    <select name="Subject">
+                        <option value="">Choose a Product</option>
+                        <option value="Tiles">Tiles</option>
+                        <option value="books">Books</option>
+                        <option value="Shooes">Shoes</option>
+
+                    </select>
+
+                </fieldset>
+                <div class="he">Audience</div>
+                <div class="rad">
+                    <fieldset>
+                        <label><input type="radio" name="Audience" value="beginner"> Beginner</label>
+                        <label><input type="radio" name="Audience" value="Intermediate"> Intermediate</label>
+                        <label><input type="radio" name="Audience" value="Advanced">Advanced</label>
+                    </fieldset>
+                </div>
+                
+                <div class="he">Date of installation </div>
+                    <input type="date" name="installation"></label>
+
+                <div class="he">What Did You Find Usefull in the Product</div>
+                <div class="he">(Check all that apply)</div>
+                <fieldset>
+                    <label><input type="checkbox" name="Durability" value="yes">Durability<label>
+                            <label><input type="checkbox" name="Ease of Use" value="yes">Ease Of Use</label>
+                            <label><input type="checkbox" name="Performance" value="yes">Performance</label>
+                            <label><input type="checkbox" name="Design" value="yes">Design</label>
+                </fieldset>
+
+                <div class="he">Written Review</div>
+
+                <textarea></textarea>
+                <div class="he">Your Name (Optional)</div>
+                <textarea></textarea>
+
+                <input type="submit" value="Post Review">
+                
+            </form>
+
+
+
+
+
+        </main>
+        <footer>
+
+            <p>
+                &copy;<span id="year"></span>
+                <span> Deon Johannes South Africa</span>
+
+
+            </p>
+            <p id="pi">
+
+                <script class="last" src="scripts/filtered-temples.js"></script>
+            </p>
+
+
+        </footer>
+
+
+
+
+
+
+</body>

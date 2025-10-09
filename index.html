@@ -20,82 +20,79 @@
         WDD 131 Dynamic Webfundamentals-Deon
     </header>
 
-    <nav>
-        <ul>
-            <li> <a href=" https://www.linkedin.com/in/deon-johannes-687524171/" class="active"> link-in</a></li>
-            <li> <a href="https://byupw.instructure.com/" class="active">Canvas</a></li>
-            <li> <a href="https://www.churchofjesuschrist.org/study/scriptures/nt/matt/7?lang=eng&id=p13-p14#p13  "
-                    class="active"> Favourite Scripture</a></li>
-            <li> <a href="Final-Project" class="active">Final-Project</a></li>
-        </ul>
-    </nav>
+
 
 
 
 
     <main>
 
+        <h1>Course Proposal Application</h1>
+        <form method="get" action="thanks.html" class="wf1">
+            <label>Product Name</label>
+            <fieldset>
+                <select name="Subject">
+                    <option value="">Choose a Product</option>
+                    <option value="Tiles">Tiles</option>
+                    <option value="books">Books</option>
+                    <option value="Shooes">Shoes</option>
 
-        <div class="container">
-            <section class="card">
-                <h1>About Me</h1>
+                </select>
 
-                <img alt="myim" class="d" src="images/1634492583937.jpeg">
+            </fieldset>
 
-                <p class="paragraph">
+            <fieldset>
+                <legend>Customer Information</legend>
+                <div>Audience</div>
+                <label><input type="radio" name="Audience" value="beginner"> Beginner</label>
+                <label><input type="radio" name="Audience" value="Intermediate"> Intermediate</label>
+                <label><input type="radio" name="Audience" value="Advanced">Advanced</label>
+            </fieldset>
+            <label>Date of installation <input type="date" name="installation"></label>
+
+            <div>What Did You Find Usefull in the Product</div>
+            <div>(Check all that apply)</div>
+            <fieldset>
+                <label><input type="checkbox" name="Durability" value="yes">Durability<label>
+                        <label><input type="checkbox" name="Ease of Use" value="yes">Ease Of Use</label>
+                        <label><input type="checkbox" name="Performance" value="yes">Performance</label>
+                        <label><input type="checkbox" name="Design" value="yes">Design</label>
+            </fieldset>
+            <fieldset>
 
 
-                    I am born and raised in South Africa , devoted my whole life to Christ and His
-                    teachings and also served
-                    as a branch secretary and Elders Quorum Secretary.I am a certified Analytical laboratory
-                    Technician,
-                    who wants to obtain a degree in programming.I have three lovely children, two daughters and
-                    a
-                    son.
-                    My wife always by my side and more then just my life partner,whom I am fully devoted with.
-                    I love spending time on pc`s if it`s upgrading them or fixing them and one of my best
-                    hobbies is
-                    online Gaming.I also love playing piano and that is the reason why I am pursuing a career in
-                    coding
-                    and programming.
-                    I have been very sick and was admitted to hospital as a baby every year, but through the
-                    grace
-                    and
-                    power of the Melchezideck priesthood and the faith of my parents I was healed and today I
-                    have
-                    that
-                    same
-                    priesthood Power.God blessed me to baptise my wife, son and daughters and blessed them as
-                    babies.
-                    I testify that nothing is more powerfull than a priesthood blessing through the power of the
-                    Holy
-                    Ghost
-                    except God and Jesus Christ.
+                <legend>Funding</legend>
+                <label>Anticipated Completion <input type="date" name="CompleteDate"></label>
+                <label>Course Subject
+                    <select name="Subject">
+                        <option value="">Please Select</option>
+                        <option value="Software">Software</option>
+                        <option value="Creative">Creative Professional</option>
+                        <option value="Info">Information Technology</option>
+                        <option value="data">Data Professional</option>
+                        <option value="Construction">Construction</option>
+                        <option value="Manufacturing">Manufacturing</option>
+                        <option value="Data">Data Professional</option>
+                        <option value="Businesss">Business Professional</option>
+                        <option value="Security">Cyber Security</option>
+                    </select>
+                </label>
+                <label>How many Authors<input type="number" name="Authors">
+                </label>
 
-                </p>
-            </section>
+            </fieldset>
 
-            <section class="card">
-
-                <h2>Web Dev Resources</h2>
-                <nav class=" navig">
-                    <a class='b' href="https://www.w3schools.com/html/default.asp">W3D SCHOOLS</a>
-                    <a class='b' href="https://css-tricks.com">CSS TRICKS</a>
-                    <a class='b' href="https://www.geeksforgeeks.org/">Geek For Geeks</a>
-                </nav>
-            </section>
-        </div>
     </main>
 
     <footer>
         <p>
             &copy;<span id="year"></span>
             <span> Deon Johannes South Africa</span>
-        
+
 
         </p>
         <p id="pi">
-           
+
             <script class="last" src="scripts/getdates.js"></script>
 
         </p>
