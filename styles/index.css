@@ -484,7 +484,7 @@ footer {
 
 
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 800px) {
 
 
 
@@ -574,4 +574,8 @@ footer {
     margin: -1rem 2% 2rem 2%;
     box-shadow: 1px 1px 4px #999;
     margin: auto;
+}
+.hoggpic,.deadspace,.forspokenpic{
+    max-width: 400px;
+    display: block;
 }
