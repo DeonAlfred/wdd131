@@ -1,0 +1,577 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+
+
+:root {
+    /* change the values below to your colors from your palette */
+    --primary-color: #C70707;
+    --secondary-color: #05134A;
+    --accent1-color: #F3A712;
+    --accent2-color: #A8C686;
+    --accent3-color: #B9BFC1;
+
+
+    /* change the values below to your chosen font(s) */
+    --heading-font: 'Courgette', cursive;
+    --paragraph-font: 'Roboto Serif', serif;
+
+
+    /* these colors below should be chosen from among your palette colors above */
+    --headline-color-on-white: #05134a;
+    /* headlines on a white background */
+    --headline-color-on-color: #fb0f07;
+    /* headlines on a colored background */
+    --paragraph-color-on-white: #F3A712;
+    /* paragraph text on a white background */
+    --paragraph-color-on-color: #A8C686;
+    /* paragraph text on a colored background */
+    --paragraph-background-color: #05134a;
+    --nav-link-color: #fb0f07;
+    --nav-background-color: #fb0f07;
+    --nav-hover-link-color: #F3A712;
+    --nav-hover-background-color: #05134a;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+
+body {
+    background-color: #B9BFC1;
+    font-family: var(--paragraph-font);
+    font-size: 15px;
+    color: var(--accent3-color);
+    margin: 100px auto;
+    padding: 4em;
+    font-size: 18px;
+    text-align: left;
+    display: block;
+
+
+}
+
+.logo {
+    width: 110px;
+    margin-left: 10px;
+    border-radius: 100px;
+    background-color: #C70707;
+    height: 10%;
+
+
+}
+
+.logo:hover {
+    opacity: .3;
+    transform: scale(1.6);
+
+}
+
+#logolink {
+    width: 20%;
+
+    justify-content: space-between;
+    margin: 0%;
+    display: block;
+
+}
+
+
+h2,
+
+h3,
+
+h4,
+
+h5,
+
+h6 {
+
+    font-family: var(--heading-font);
+
+    font-weight: 700;
+
+    color: var(--secondary-color);
+
+}
+
+h1 {
+    font-style: italic;
+    color: #C70707;
+    font-size: 2.5em;
+    font-family: var(--heading-font);
+    background-color: #F3A712;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.title1 {
+    font-style: italic;
+    color: #C70707;
+    font-size: 2.5em;
+    font-family: var(--heading-font);
+    background-color: #F3A712;
+    border-radius: 50px;
+    align-self: center;
+    padding: 10px 1em;
+}
+
+
+
+.h11 {
+    background-color: #C70707;
+    color: #A8C686;
+}
+
+.nes1 {
+    border: 6px solid #F3A712;
+    margin-left: 15%;
+    margin-top: 30px;
+    margin-bottom: 35px;
+    box-shadow: 4px 4px 6px 6px #C70707;
+}
+
+.nes1:hover {
+    opacity: .3;
+    transform: scale(1.2);
+
+}
+
+.pac {
+    border: 6px solid #F3A712;
+    width: 700px;
+    margin-left: 15%;
+    margin-top: 30px;
+    margin-bottom: 35px;
+    box-shadow: 4px 4px 6px 6px #C70707;
+}
+
+
+.firstimage {
+    min-height: fit-content;
+    padding-left: 40px;
+    box-shadow: 10px 10px 10px 10px #C70707;
+    image-rendering: crisp-edges;
+    margin-bottom: 40px;
+    margin-right: 60%;
+    margin-left: 10%;
+    background-color: #05134A
+}
+
+.secondimage {
+    margin-top: 2%;
+    margin-left: 25%;
+
+}
+
+p {
+    font-family: var(--paragraph-font);
+    font-style: inherit;
+    color: #05134a;
+    font-size: x-large;
+    font-weight: 500;
+
+}
+
+
+.headtext1 {
+    font-family: var(--paragraph-font);
+    font-weight: bold;
+    text-align: center;
+    font-size: xx-large;
+    font-style: oblique;
+    color: #05134a;
+    border-width: 50px;
+}
+
+.hoggpic {
+    box-shadow: 6px 6px 6px 6px #05134a;
+    max-width: 700px;
+    align-self: center;
+}
+
+.hogg {
+    text-align: center;
+    color: #C70707;
+    font-weight: bold;
+}
+
+.deadspace {
+    max-width: 700px;
+    align-self: center;
+    box-shadow: 6px 6px 6px 6px #05134a
+}
+
+.dead {
+    text-align: center;
+    color: #C70707;
+    font-weight: bold;
+}
+
+.forspokenpic {
+    max-width: 700px;
+    align-self: center;
+    box-shadow: 6px 6px 6px 6px #05134a
+}
+
+.for {
+    text-align: center;
+    color: #C70707;
+    font-weight: bold;
+}
+
+h2 {
+
+    font-size: 2em;
+
+}
+
+h3 {
+
+    font-size: 1.75em;
+
+}
+
+h4 {
+
+    font-size: 1.5em;
+
+}
+
+h5 {
+
+    font-size: 1.25em;
+
+}
+
+h6 {
+
+    font-size: .75em;
+
+}
+
+img {
+
+    max-width: 100%;
+
+}
+
+p {
+
+    padding: 20px;
+    margin: 0;
+
+}
+
+
+.next,
+.previous {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+    margin-left: 23px;
+
+}
+
+.next:hover {
+
+    background-color: #C70707;
+}
+
+.previous:hover {
+    background-color: #05134a;
+}
+
+.previous {
+    background-color: #F3A712;
+    color: #C70707;
+    border-radius: 100%;
+    padding: 20px;
+    height: 10%;
+    margin-top: 5px;
+    margin-right: 10px;
+    border: 4px solid #A8C686;
+}
+
+.next {
+    background-color: #F3A712;
+    color: #05134A;
+    font-weight: bolder;
+    border-radius: 100%;
+    padding: 20px;
+    height: 10%;
+    margin-top: 3px;
+    border: 4px solid #A8C686;
+}
+
+
+/****************************************************************
+
+* *
+
+* default properties for all pages *
+
+* *
+
+*****************************************************************/
+
+
+/*  This rule name changes based upon the default button color   */
+
+.btn-blue {
+
+    background-color: var(--primary-color);
+
+    padding: 1em 6em;
+
+    color: var(--accent2-color);
+
+}
+
+.buttons {
+
+    grid-column: 1/-1;
+
+    display: flex;
+
+    flex-direction: row;
+
+    justify-content: space-around;
+
+    margin: 0 30px;
+
+    border-radius: 20px;
+
+}
+
+/*  This is the default grid layout for all grids. Other grids can be defined as needed. */
+
+.grid-default {
+
+    display: grid;
+
+    grid-template-columns: repeat(1, 6fr);
+
+    gap: 3em 0;
+
+}
+
+
+
+/****************************************************************
+
+* *
+
+* header area properties *
+
+
+
+*****************************************************************/
+
+header {
+
+    display: grid;
+
+    grid-template-columns: 250px auto;
+
+    background-color: var(--secondary-color);
+    margin-bottom: 50px;
+    display: grid;
+    margin: auto;
+
+    align-items: center;
+}
+
+nav {
+
+    display: grid;
+
+    display: flex;
+}
+
+nav a {
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 30px;
+    color: #A8C686;
+    font-family: 'Roboto Serif';
+    text-decoration: none;
+    margin-right: 50px;
+    margin-left: 50px;
+    max-height: 1%;
+    transition: transform.5s;
+}
+
+nav a:hover {
+
+    opacity: .6;
+    transform: scale(1.2);
+}
+
+
+/*  HTML format for these next 2 rules
+
+*    <a class="nav-item" href="...">...</a>    */
+
+
+
+
+
+nav a:hover {
+    color: #F3A712;
+}
+
+
+
+/****************************************************************
+
+* *
+
+* footer area properties *
+
+* *
+
+*****************************************************************/
+
+footer {
+
+    background-color: #F3A712;
+    color: var(--accent2-color);
+    justify-content: space-around;
+    height: 110px;
+    align-items: center;
+    display: flex;
+    font-weight: bolder;
+
+
+}
+
+.rite {
+    color: #05134a;
+}
+
+.rite:hover {
+    background-color: #F3A712;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    margin-left: 25%;
+    padding-left: 3%;
+    border-radius: 40%;
+    transform-style: preserve-3d;
+}
+
+.site a {
+    color: #05134a;
+    text-decoration: none;
+}
+
+
+
+.site:hover {
+    color: #F3A712;
+    background-color: #A8C686;
+    border-radius: 50%;
+}
+
+
+
+@media screen and (max-width: 900px) {
+
+
+
+    main,
+    footer {
+        display: block;
+    }
+
+    header {
+        display: block;
+        flex-direction: row;
+    }
+
+    nav {
+        display: block;
+        flex-direction: column;
+        grid-column: 1/3;
+    }
+
+    .p {
+        display: block;
+        width: auto;
+    }
+
+    .next,
+    .previous {
+        display: flex;
+        flex-direction: row;
+        height: 10px;
+        text-size-adjust: 50%;
+        width: 2px
+    }
+}
+
+.wf1 legend {
+    color: blue;
+    padding: 0.5rem;
+}
+
+
+.wf1 input[type='text'],
+.wf1 input[type='tel'],
+.wf1 input[type='email'],
+.wf1 input[type='url'],
+.wf1 input[type='date'],
+.wf1 select {
+    display: block;
+    background-color: #eee;
+    border: solid 1px grey;
+    border-radius: 6px;
+    padding: .75 rem;
+    color: #555;
+    width: 100%;
+    max-width: 400px;
+
+
+}
+
+.wf1 fieldset {
+    margin: 2rem 0;
+    border: 1px solid light #ddd;
+    padding: .5rem 2%;
+    border-radius: 6px;
+}
+
+.wf1 label {
+    display: block;
+    padding-top: 1rem;
+    color: red;
+    font-size: .9rem;
+}
+
+.po {
+    max-width: 200px;
+    background-color: #C70707;
+    
+}
+
+.wf1 input[type='submit'] {
+    border: none;
+    background-image: linear-gradient(blue);
+    color: #eee;
+    border-radius: 6px;
+    padding: .8rem;
+    width: 100%;
+    max-width: 400px;
+    margin: -1rem 2% 2rem 2%;
+    box-shadow: 1px 1px 4px #999;
+    margin: auto;
+}

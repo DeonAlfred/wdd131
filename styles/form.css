@@ -66,7 +66,7 @@ h1 {
 
 nav {
     background-color: #70e000;
-    
+
     border-radius: 20px;
 
 }
@@ -383,10 +383,11 @@ input[type=text] {
     margin: auto;
 }
 
-.wf1{
+.wf1 {
     background-color: #ccc;
     max-width: 400px;
 }
+
 .wf1 input:required {
     border-right: solid 8px red;
 }
@@ -394,17 +395,28 @@ input[type=text] {
 .wf1 input:required:valid {
     border-bottom: solid 8px blue;
 }
-.wf1 input[type="date"]{
+
+.wf1 input[type="date"] {
     max-width: 380px;
     margin-left: 2px;
     border: solid 2px #000;
 
 }
-form{
+
+form {
     border: solid 1px black;
-    
+
 }
+
 textarea {
     resize: none;
-    width: 100%;
+    width: 98%;
+    height: 40px;
+    
+}
+
+.stars {
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: left;
 }
