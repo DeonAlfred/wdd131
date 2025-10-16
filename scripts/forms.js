@@ -2,12 +2,20 @@ const rangevalue = document.getElementById("rangevalue");
 const range = document.getElementById("r");
 
 // RANGE event listener
-range.addEventListener('change', displayRatingValue);
-range.addEventListener('input', displayRatingValue);
 
-function displayRatingValue() {
-    rangevalue.innerHTML = range.value;
-}const products = [
+
+const productNameselect = document.getElementById('productName');
+
+products.forEach(product => {
+const option = document.createElement('option');
+option.value = product.id;
+option.textContent = product.name;
+productNameSelect.appendChild(option);
+});
+
+
+
+const productName= [
   {
     id: "fc-1888",
     name: "flux capacitor",
@@ -34,4 +42,12 @@ function displayRatingValue() {
     averagerating: 5.0
   }
 ]
-displayRatingValue();
+const productNameSelect = document.getElementById('productName');
+
+products.forEach(product => {
+const option = document.createElement('option');
+option.value = product.id;
+option.textContent = product.name;
+productNameSelect.appendChild(option);
+});
+productName();
