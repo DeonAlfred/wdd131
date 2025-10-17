@@ -4,6 +4,7 @@ const range = document.getElementById("r");
 // RANGE event listener
 
 
+const productNameselect = document.getElementById('productName');
 
 
 
