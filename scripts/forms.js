@@ -6,16 +6,9 @@ const range = document.getElementById("r");
 
 const productNameselect = document.getElementById('productName');
 
-products.forEach(product => {
-const option = document.createElement('option');
-option.value = product.id;
-option.textContent = product.name;
-productNameSelect.appendChild(option);
-});
 
 
-
-const productName= [
+const products= [
   {
     id: "fc-1888",
     name: "flux capacitor",
@@ -50,4 +43,3 @@ option.value = product.id;
 option.textContent = product.name;
 productNameSelect.appendChild(option);
 });
-productName();
